@@ -1,4 +1,4 @@
-# Project Title
+# Sisu Data Visualization
 
 This project show scores in Sisu (Sistema de Seleção Unificada) at UFMG - 2018. Data from [Sisu -  UFMG](https://www.ufmg.br/sisu/).
 
