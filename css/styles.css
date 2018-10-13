@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+html, *{
+	font-family: 'Lato', sans-serif;
+}
+
+.header {
+	background: #006474;
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+
+.logo-sisu {
+	max-width: 150px;
+	margin: 20px auto;
+}
+
+.container {
+	width: 1300px;
+	display: block;
+	margin: 0 auto;
+}
+
+.line-result {
+	fill: #f00;
+	stroke: #f00;
+	stroke-width: 1px;
+	stroke-opacity: 1;
+}
+
+.box-inputs {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+	border-bottom: solid 1px #dedede;
+}
+
+input, select {
+	border-radius: 20px;
+	border: solid 1px #999;
+	outline: none !important;
+	padding: 5px 10px;
+	background: #fff;
+}
+
+.legend {
+	margin-top: 20px;
+}
+
+table {
+	border: none;
+}
+
+td {
+	border: none;
+	text-align: center;
+	border: none;
+	text-align: center;
+	border-bottom: solid 1px #eee;
+	padding: 20px;
+}
+
+.description {
+	text-align: left;
+}
+
+.footer {
+	margin-top: 50px;
+	background: #eee;
+	padding: 20px 0;
+	text-align: center;
+}
+
+button {
+	border-radius: 20px;
+	border: none;
+	outline: none !important;
+	padding: 5px 20px;
+	background: #415059;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 20px;
+}
+
+#modality {
+	width: 200px;
+}
+
+#label-modality {
+	font-weight: bold;
+}
+
+#description-modality {
+	padding: 0 20px
+}
