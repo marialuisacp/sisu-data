@@ -101,3 +101,8 @@ button {
 #description-modality {
 	padding: 0 20px
 }
+
+a {
+	color: #415059;
+	text-decoration: none
+}
