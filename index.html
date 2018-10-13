@@ -1,55 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Sisu data</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
+  <meta charset="UTF-8">
+  <title>Sisu data</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
 </head>
 <body>
-	<div class="header">
-		<img class="logo-sisu" src="img/logo-sisu.png">
-	</div>
-	<div class="container">
-		<div class="box-inputs">
-			<span class="label"> Nota no Enem: </span>
-			<input id="score" type="text" placeholder="600.00"/>
-			<button> Resultado </button>
-			<span class="label"> Filtrar por: Horário do curso </span>
-			<select id="shift" onchange="changeFilter()">
-				<option value="all"> Todos </option>
-				<option value="Matutino"> Matutino </option>
-				<option value="Vespertino"> Vespertino </option>
-				<option value="Noturno"> Noturno </option>
-			</select>
-			<span class="label"> Modalidade </span>
-			<select id="modality" onchange="changeFilter()">
-				<option value="x"> Ampla concorrencia </option>
-				<option value="1.1"> 1.1 </option>
-				<option value="1.2"> 1.2 </option>
-				<option value="2.1"> 2.1 </option>
-				<option value="2.2"> 2.2 </option>
-				<option value="3.1"> 3.1 </option>
-				<option value="3.2"> 3.2 </option>
-				<option value="4.1"> 4.1 </option>
-				<option value="4.2"> 4.2 </option>
-			</select>
-			<span class="label"> Chamada </span>
-			<select id="call" onchange="changeFilter()">
-			</select>
-		</div>
-		<div class="box-inputs">
-			<span id="label-modality"> Modalidade: </span>
-			<span id="description-modality"></span>
-		</div>
-		<div id="box-svg"></div>
-		<div id="box-line"></div>
-		</div>
-	</div>
-	<div class="footer">
-		<span> Desenvolvido por <a target="_blank" href="http://dcc.ufmg.br/~maria.luisa">@maaria_luiisa</a>. © 2018 Maria Luísa Costa Pinto </span>
-	</div>
-	<script src="https://d3js.org/d3.v4.min.js"></script>
-	<script src="index.js"></script>
+  <div class="header">
+    <img class="logo-sisu" src="img/logo-sisu.png">
+  </div>
+  <div class="container">
+    <div class="box-inputs">
+      <span class="label"> Nota no Enem: </span>
+      <input id="score" type="text" placeholder="600.00"/>
+      <button> Resultado </button>
+      <span class="label"> Filtrar por: Horário do curso </span>
+      <select id="shift" onchange="changeFilter()">
+        <option value="all"> Todos </option>
+        <option value="Matutino"> Matutino </option>
+        <option value="Vespertino"> Vespertino </option>
+        <option value="Noturno"> Noturno </option>
+      </select>
+      <span class="label"> Modalidade </span>
+      <select id="modality" onchange="changeFilter()">
+        <option value="x"> Ampla concorrencia </option>
+        <option value="1.1"> 1.1 </option>
+        <option value="1.2"> 1.2 </option>
+        <option value="2.1"> 2.1 </option>
+        <option value="2.2"> 2.2 </option>
+        <option value="3.1"> 3.1 </option>
+        <option value="3.2"> 3.2 </option>
+        <option value="4.1"> 4.1 </option>
+        <option value="4.2"> 4.2 </option>
+      </select>
+      <span class="label"> Chamada </span>
+      <select id="call" onchange="changeFilter()">
+      </select>
+    </div>
+    <div class="box-inputs">
+      <span id="label-modality"> Modalidade: </span>
+      <span id="description-modality"></span>
+    </div>
+    <div id="box-svg"></div>
+    <div id="box-line"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <span> Desenvolvido por <a target="_blank" href="http://dcc.ufmg.br/~maria.luisa">@maaria_luiisa</a>. © 2018 Maria Luísa Costa Pinto </span>
+  </div>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
